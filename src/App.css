@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.builder-container{
+  background: #363F4E url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAOklEQVQYV2NgQAN+fpHiPj5x0ujiTOgCuAD1FTK6B8VIIgsw//0v8v8/M8s/ln8vkMWJNhEDDEJfAwCRkAxY7/jElwAAAABJRU5ErkJggg==);
+  height: calc(100vh - (99px + 56px));
+  padding: 0;
+}
+
+.react-flow__node{
+    padding: 10px;
+    word-break: break-word;
+    color: #3a4a65;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    cursor: move !important;
+    background: linear-gradient(180deg, #f9fbfc 0%, #ecf1f3 100%);
+    -webkit-transition: -webkit-box-shadow 0.25s ease-in;
+    -moz-transition: -moz-box-shadow 0.25s ease-in;
+    transition: box-shadow 0.25s ease-in;
+
+    min-height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
